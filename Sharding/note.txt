@@ -1,0 +1,11 @@
+code
+Database → All Users
+
+we have
+Shard 1 → Users 1–100k
+Shard 2 → Users 100k–200k
+Shard 3 → Users 200k+
+
+
+
+
