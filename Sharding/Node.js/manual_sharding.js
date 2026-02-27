@@ -15,20 +15,20 @@ async function getUser(userId) {
 }
 
 
-/// sharding stragties
+// /// sharding stragties
 
-///ranging
-if (userId < 100000) shard1
-else shard2
+// ///ranging
+// if (userId < 100000) shard1
+// else shard2
 
-//// hash based 
+// //// hash based 
 
-userId % totalShards
+// userId % totalShards
 
 
-///// geo based
+// ///// geo based
 
-if (country === "US") use US shard
-else use EU shard
+// if (country === "US") use US shard
+// else use EU shard
 
 
